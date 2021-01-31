@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Divs, Spans, Classes, Ids</title>
+  <style>
+    .card{
+      border: 1px solid #ccc;
+      background: #f4f4f4;
+      padding: 20px;
+      margin-botton: 10px;
+    
+    }
+    .enchance {
+      color: yellow;
+      background-color:black
+
+    }
+  </style>
+</head>
+<body>
+  <div id="maind-header" class="card">
+    <h1>My Website</h1>
+    <p>A site about me</p>
+  </div>
+  <ul id="maind-nave">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+  <div id="about" class="card">
+    <h3>About</h3>
+    <p>Lorem, <span class="enchance">ipsum dolor sit amet consectetur</span> adipisicing elit. Nihil similique quas commodi quia magnam ea omnis dolores quaerat exercitationem delectus illo ullam qui, id porro, dolorem possimus quam aperiam impedit?
+    Officia voluptatibus sunt omnis itaque? Excepturi ipsam nulla libero optio architecto explicabo eum impedit quibusdam dolorem veniam quod maxime aliquid corrupti quas, quia assumenda expedita eveniet vero. Tempore, alias rem!
+    Ducimus beatae illum <span class="enchance">animi dignissimos perspiciatis? Inventore</span> cupiditate sapiente, voluptatibus architecto nemo magnam, unde, doloribus ad assumenda rem odit facere. Non autem quae quis voluptates eaque accusamus sint exercitationem unde!
+    A inventore ducimus voluptatem aliquid corporis? Inventore quasi perferendis voluptas eius veniam, facilis illo. Amet laboriosam alias at facere quibusdam autem, ex recusandae incidunt harum velit asperiores sed nam earum.
+    In non, sunt a officiis nostrum, alias aut consectetur ratione, fugit enim tempore deserunt voluptas vel sequi cupiditate qui maxime ab recusandae. Sit corrupti, voluptas repellendus quisquam at doloremque neque.</p>
+  </div>
+
+  <div id="about" class="card"> <!-- div is block level, but span is inline level-->
+    <h3>History</h3>
+    <p>Lorem, <div class="enchance">ipsum dolor sit amet consectetur</div> adipisicing elit. Nihil similique quas commodi quia magnam ea omnis dolores quaerat exercitationem delectus illo ullam qui, id porro, dolorem possimus quam aperiam impedit?
+    Officia voluptatibus sunt omnis itaque? Excepturi ipsam nulla libero optio architecto explicabo eum impedit quibusdam dolorem veniam quod maxime aliquid corrupti quas, quia assumenda expedita eveniet vero. Tempore, alias rem!
+    Ducimus beatae illum <span class="enchance">animi dignissimos perspiciatis? Inventore</span> cupiditate sapiente, voluptatibus architecto nemo magnam, unde, doloribus ad assumenda rem odit facere. Non autem quae quis voluptates eaque accusamus sint exercitationem unde!
+    A inventore ducimus voluptatem aliquid corporis? Inventore quasi perferendis voluptas eius veniam, facilis illo. Amet laboriosam alias at facere quibusdam autem, ex recusandae incidunt harum velit asperiores sed nam earum.
+    In non, sunt a officiis nostrum, alias aut consectetur ratione, fugit enim tempore deserunt voluptas vel sequi cupiditate qui maxime ab recusandae. Sit corrupti, voluptas repellendus quisquam at doloremque neque.</p>
+  </div>
+
+  <div id="contact" class="card">
+    <h3>Contact Me</h3>
+    <ul>
+      <li>Address: 50 main st, Boston MA</li>
+      <li>Phone:(555) 555-555</li>
+      <li>Email: me@somethingcool.com</li>
+    </ul>
+  </div>
+
+  <div id="footer">
+    <p>Copyright &copy; 2021</p>
+  </div>
+
+</body>
+</html>
